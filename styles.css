@@ -49,27 +49,39 @@ body,html{
     background-size: cover;
     text-align: center;
     justify-content: center;
-    animation: change 30s ease-in-out infinite; 
+    animation: change 45s linear infinite;
 }
 
 @keyframes change {
     0% {
         background-image: url(images/snowbarn1.jpg);
     }
-    16.666% {
+    15% {
+        background-image: url(images/snowbarn1.jpg);
+    }
+    20% {
         background-image: url(images/shack1.jpg);
     }
-    33.333% {
+    35% {
+        background-image: url(images/shack1.jpg);
+    }
+    40% {
         background-image: url(images/tombstone1.jpg);
     }
-    50% {
+    55% {
+        background-image: url(images/tombstone1.jpg);
+    }
+    60% {
         background-image: url(images/redroof1.jpg);
     }
-    66.666% {
+    75% {
+        background-image: url(images/redroof1.jpg);
+    }
+    80% {
         background-image: url(images/curvedroof1.jpg);
     }
-    83.333% {
-        background-image: url(images/redbarn1.jpg);
+    95% {
+        background-image: url(images/curvedroof1.jpg);
     }
     100% {
         background-image: url(images/snowbarn1.jpg);
