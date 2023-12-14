@@ -14,7 +14,7 @@ body,html{
     text-transform: uppercase;
 }
 
-.content h1{
+.content .title1{
     color: #fff;
     font-size: 60px;
     letter-spacing: 15px;
@@ -22,24 +22,18 @@ body,html{
     animation: david 10s linear infinite;
 }
 
+.content .title2{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+    opacity: 80%;
+}
+
 .content h1 span{
     color: #111;
     opacity: 98%;
     animation: redmond 10s linear infinite;
 }
-
-/* .content a{
-    background: #85c1ee;
-    padding: 10px 24px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 20px;
-} */
-
-/* .content a:hover{
-    background: #034e88;
-    color: #fff;
-} */
 
 .Section_top {
     width: 100%;
