@@ -6,6 +6,14 @@ body,html{
     font-family: sans-serif;
 }
 
+.shop {
+    background: #fff;
+}
+
+.row {
+    padding: 80px;   
+}
+
 .content{
     position: absolute;
     top: 50%;
